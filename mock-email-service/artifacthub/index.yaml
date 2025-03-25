@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  mock-email-service:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-03-25T16:08:13.358006025-07:00"
+    description: A Helm chart for Mock Email Service to deploy in Kubernetes
+    digest: 204e0d4e20f529e52d87342dc966f66bac6a13c78eb1be22d6af53513edef93f
+    name: mock-email-service
+    type: application
+    urls:
+    - mock-email-service-1.0.0.tgz
+    version: 1.0.0
+generated: "2025-03-25T16:08:13.357669974-07:00"

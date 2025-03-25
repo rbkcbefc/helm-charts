@@ -1,0 +1,19 @@
+replicaCount: 1
+
+image:
+  repository: rbkcbefc/mock-email-service
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 8080
+
+livenessProbe:
+  httpGet:
+    path: /
+    port: http
+readinessProbe:
+  httpGet:
+    path: /email/healthcheck
+    port: http
